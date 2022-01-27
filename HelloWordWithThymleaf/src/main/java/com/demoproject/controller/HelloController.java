@@ -17,15 +17,11 @@ public class HelloController {
 	
 	
 	@GetMapping("/user")
-	public String userDash() {
+	public String aadityasop() {
 		System.out.println("hey its some change");
 		return "home";
 	}
 	
-	@GetMapping("/admin")
-	public String adminDash() {
-		
-		return "adminhome";
-	}
+	
 
 }
