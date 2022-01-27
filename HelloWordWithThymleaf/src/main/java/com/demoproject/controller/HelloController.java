@@ -22,10 +22,6 @@ public class HelloController {
 		return "home";
 	}
 	
-	@GetMapping("/admin")
-	public String adminDash() {
-		
-		return "adminhome";
-	}
+
 
 }
