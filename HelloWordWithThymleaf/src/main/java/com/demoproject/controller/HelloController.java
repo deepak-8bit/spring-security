@@ -18,7 +18,7 @@ public class HelloController {
 	
 	@GetMapping("/user")
 	public String userDash() {
-		
+		System.out.println("hey its some change");
 		return "home";
 	}
 	
